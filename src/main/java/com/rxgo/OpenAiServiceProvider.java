@@ -23,7 +23,7 @@ public class OpenAiServiceProvider {
       @ConfigProperty(name = "openai.timeout.seconds", defaultValue = "180") final long timeoutSeconds) {
 
     // 3 requests per minute
-    final Interceptor rateLimiter = new DelayQueueRateLimitingInterceptor(3, TimeUnit.MINUTES);
+    final Interceptor rateLimiter = new DelayQueueRateLimitingInterceptor(60, TimeUnit.MINUTES);
 
     final OkHttpClient client = OpenAiService.defaultClient(token, Duration.ofSeconds(timeoutSeconds))
         .newBuilder()

@@ -55,7 +55,7 @@ public class CompletionCommand implements Runnable {
   static final String DEFAULT_TEMP = "0.5";
   static final int CONTEXT_SIZE = 4000;
   static final int ENOUGH_RESULTS = 100;
-  static final int MAX_ITERATIONS = 30;
+  static final int MAX_ITERATIONS = 100;
   static final int MAX_NORESULT_ITERATIONS = 3;
   static final Pattern STOP_WORDS_PATTERN = Pattern.compile(
       ".*\\b(code|best|guarantee|healthcare|therapy)\\b.*",

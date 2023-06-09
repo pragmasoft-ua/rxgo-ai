@@ -100,3 +100,8 @@ As picocli applications will often require arguments to be passed on the command
 ```shell script
 ./mvnw compile quarkus:dev -Dquarkus.args='Quarky'
 ```
+
+## TODO
+
+native image build
+https://quarkus.io/extensions/org.apache.camel.quarkus/camel-quarkus-support-retrofit
