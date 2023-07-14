@@ -1,0 +1,18 @@
+-t app-image
+-n rxgo-ai
+--app-version 2023.7.1
+--copyright "Medication Discount Card LLC, 2023"
+--description "AI generated drug taglines -> titles.csv"
+--icon src/main/resources/rxgo.ico
+--vendor pragmasoft
+-d target/jpkg
+-i target/quarkus-app
+--temp target/jpkg.tmp
+--main-jar quarkus-run.jar
+--add-modules java.base,java.logging,java.naming,jdk.zipfs,jdk.unsupported,java.management,jdk.crypto.ec
+--win-console
+--jlink-options --no-header-files 
+--jlink-options --no-man-pages 
+--jlink-options --compress=2 
+--jlink-options --strip-debug 
+--jlink-options --strip-native-commands 

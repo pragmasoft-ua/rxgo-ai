@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.rxgo</groupId>
   <artifactId>rxgo-ai</artifactId>
-  <version>2023.5.1-SNAPSHOT</version>
+  <version>2023.7.1-SNAPSHOT</version>
   <properties>
     <compiler-plugin.version>3.11.0</compiler-plugin.version>
     <maven.compiler.release>17</maven.compiler.release>
@@ -14,7 +14,7 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
     <quarkus.platform.group-id>io.quarkus.platform</quarkus.platform.group-id>
-    <quarkus.platform.version>3.0.3.Final</quarkus.platform.version>
+    <quarkus.platform.version>3.1.1.Final</quarkus.platform.version>
     <skipITs>true</skipITs>
     <surefire-plugin.version>3.0.0</surefire-plugin.version>
   </properties>
@@ -35,7 +35,7 @@
     <dependency>
       <groupId>com.theokanning.openai-gpt3-java</groupId>
       <artifactId>service</artifactId>
-      <version>0.12.0</version>
+      <version>0.14.0</version>
     </dependency>
 
     <dependency>
@@ -58,7 +58,11 @@
       <artifactId>quarkus-junit5</artifactId>
       <scope>test</scope>
     </dependency>
-
+    <dependency>
+      <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-smallrye-fault-tolerance</artifactId>
+      <scope>test</scope>
+    </dependency>
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>

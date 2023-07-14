@@ -34,25 +34,25 @@ public class CompletionCommand implements Runnable {
 
   static final String DEFAULT_PROMPT = """
       user: Create SEO friendly title tags for "%drugname% coupon" to be used on RxGo.
-      The two main search terms the title tag should always start with either
-      "%drugname% coupons" or "%drugname% discounts" but not "%drugname% coupons and discounts" or
-      "%drugname% discounts and coupons"
+      The main search term the title tag should start with is
+      "%drugname% coupons" it should not say "%drugname% discounts" or "%drugname% coupons and discounts" or
+      "%drugname% discounts and coupons" but it can still contain the word "discounts"
       Exclude the words "code", "guarantee" "best", "healthcare" and "therapy".
       Provide variants
       assistant: %drugname% Coupons from RxGo
       %drugname% Coupons | Save Money on Your Prescription - RxGo.com
       %drugname% Coupons | RxGo prescription discounts
-      %drugname% Discounts | shop smart with RxGo's prescription coupons
+      %drugname% Coupons | shop smart with RxGo's prescription discounts
       RxGo: Your Prescription Savings Hub for %drugname% Coupons
-      RxGo: Your Destination for %drugname% Discounts
+      RxGo: Your Destination for %drugname% Coupons
       %drugname% Coupons | RxGo - Your Prescription Savings Partner
       RxGo: %drugname% Coupons - Save with our discounts
       %drugname% Coupons Use RxGo for Cost-Effective Medication Discounts
-      RxGo: Your Prescription Savings Destination for %drugname% Discounts
+      RxGo: Your Prescription Savings Destination for %drugname% Coupons
       """;
 
   static final String DEFAULT_MODEL = "gpt-3.5-turbo";
-  static final String DEFAULT_TEMP = "0.5";
+  static final String DEFAULT_TEMP = "0.6";
   static final int CONTEXT_SIZE = 4000;
   static final int ENOUGH_RESULTS = 100;
   static final int MAX_ITERATIONS = 100;

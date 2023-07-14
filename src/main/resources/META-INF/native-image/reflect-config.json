@@ -1,0 +1,688 @@
+[
+{
+  "name":"[B"
+},
+{
+  "name":"[Ljava.lang.String;"
+},
+{
+  "name":"[Lsun.security.pkcs.SignerInfo;"
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7HandlersImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.rxgo.CompletionCommand",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.rxgo.OpenAiServiceProvider",
+  "queriedMethods":[{"name":"openAiService","parameterTypes":["java.lang.String","long"] }]
+},
+{
+  "name":"com.sun.crypto.provider.AESCipher$General",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.ARCFOURCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.ChaCha20Cipher$ChaCha20Poly1305",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.DESCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.DESedeCipher",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.DHParameters",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.GaloisCounterMode$AESGCM",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.HmacCore$HmacSHA384",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.crypto.provider.TlsMasterSecretGenerator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.theokanning.openai.Usage",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setCompletionTokens","parameterTypes":["long"] }, 
+    {"name":"setPromptTokens","parameterTypes":["long"] }, 
+    {"name":"setTotalTokens","parameterTypes":["long"] }
+  ]
+},
+{
+  "name":"com.theokanning.openai.completion.chat.ChatCompletionChoice",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setFinishReason","parameterTypes":["java.lang.String"] }, 
+    {"name":"setIndex","parameterTypes":["java.lang.Integer"] }, 
+    {"name":"setMessage","parameterTypes":["com.theokanning.openai.completion.chat.ChatMessage"] }
+  ]
+},
+{
+  "name":"com.theokanning.openai.completion.chat.ChatCompletionRequest",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"getFrequencyPenalty","parameterTypes":[] }, 
+    {"name":"getFunctionCall","parameterTypes":[] }, 
+    {"name":"getFunctions","parameterTypes":[] }, 
+    {"name":"getLogitBias","parameterTypes":[] }, 
+    {"name":"getMaxTokens","parameterTypes":[] }, 
+    {"name":"getMessages","parameterTypes":[] }, 
+    {"name":"getModel","parameterTypes":[] }, 
+    {"name":"getN","parameterTypes":[] }, 
+    {"name":"getPresencePenalty","parameterTypes":[] }, 
+    {"name":"getStop","parameterTypes":[] }, 
+    {"name":"getStream","parameterTypes":[] }, 
+    {"name":"getTemperature","parameterTypes":[] }, 
+    {"name":"getTopP","parameterTypes":[] }, 
+    {"name":"getUser","parameterTypes":[] }
+  ]
+},
+{
+  "name":"com.theokanning.openai.completion.chat.ChatCompletionResult",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"setChoices","parameterTypes":["java.util.List"] }, 
+    {"name":"setCreated","parameterTypes":["long"] }, 
+    {"name":"setId","parameterTypes":["java.lang.String"] }, 
+    {"name":"setModel","parameterTypes":["java.lang.String"] }, 
+    {"name":"setObject","parameterTypes":["java.lang.String"] }, 
+    {"name":"setUsage","parameterTypes":["com.theokanning.openai.Usage"] }
+  ]
+},
+{
+  "name":"com.theokanning.openai.completion.chat.ChatFunctionCall",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.theokanning.openai.completion.chat.ChatMessage",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"getContent","parameterTypes":[] }, 
+    {"name":"getFunctionCall","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getRole","parameterTypes":[] }, 
+    {"name":"setContent","parameterTypes":["java.lang.String"] }, 
+    {"name":"setRole","parameterTypes":["java.lang.String"] }
+  ]
+},
+{
+  "name":"com.theokanning.openai.service.ChatCompletionRequestMixIn",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.theokanning.openai.service.ChatCompletionRequestSerializerAndDeserializer$Serializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.theokanning.openai.service.ChatFunctionCallArgumentsSerializerAndDeserializer$Deserializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.theokanning.openai.service.ChatFunctionCallMixIn",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"com.theokanning.openai.service.OpenAiService"
+},
+{
+  "name":"io.quarkus.arc.AsyncObserverExceptionHandler"
+},
+{
+  "name":"io.quarkus.arc.impl.DefaultAsyncObserverExceptionHandler"
+},
+{
+  "name":"io.quarkus.picocli.runtime.DefaultPicocliCommandLineFactory",
+  "queriedMethods":[{"name":"<init>","parameterTypes":["jakarta.enterprise.inject.Instance","io.quarkus.picocli.runtime.PicocliConfiguration","picocli.CommandLine$IFactory"] }]
+},
+{
+  "name":"io.quarkus.picocli.runtime.PicocliCommandLineFactory"
+},
+{
+  "name":"io.quarkus.picocli.runtime.PicocliCommandLineProducer"
+},
+{
+  "name":"io.quarkus.picocli.runtime.PicocliConfiguration"
+},
+{
+  "name":"io.quarkus.picocli.runtime.PicocliRunner",
+  "queriedMethods":[{"name":"<init>","parameterTypes":["picocli.CommandLine","jakarta.enterprise.event.Event"] }]
+},
+{
+  "name":"io.quarkus.picocli.runtime.annotations.TopCommand",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.quarkus.runner.ApplicationImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runner.GeneratedMain",
+  "methods":[{"name":"main","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"io.quarkus.runtime.QuarkusApplication"
+},
+{
+  "name":"io.quarkus.runtime.configuration.ConfigurationRuntimeConfig$BuildTimeMismatchAtRuntime"
+},
+{
+  "name":"io.quarkus.runtime.configuration.MemorySize"
+},
+{
+  "name":"io.quarkus.runtime.generated.BuildTimeRunTimeFixedConfigSourceBuilder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.generated.RunTimeDefaultsConfigSourceBuilder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.generated.RunTimeMappingsConfigBuilder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.generated.StaticInitMappingsConfigBuilder",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.quarkus.runtime.logging.InheritableLevel",
+  "queriedMethods":[{"name":"of","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"io.smallrye.config.PropertiesLocationConfigSourceFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.smallrye.config.inject.ConfigProducer"
+},
+{
+  "name":"jakarta.enterprise.context.BeforeDestroyed",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"jakarta.enterprise.context.Destroyed",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"value","parameterTypes":[] }]
+},
+{
+  "name":"jakarta.enterprise.event.Event"
+},
+{
+  "name":"jakarta.enterprise.inject.Any",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"jakarta.enterprise.inject.Default",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"jakarta.enterprise.inject.Instance"
+},
+{
+  "name":"java.io.File",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.io.Serializable",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.ClassLoader"
+},
+{
+  "name":"java.lang.Comparable",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.Double",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"java.lang.Number",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.String"
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[
+    {"name":"contextClassLoader"}, 
+    {"name":"inheritableThreadLocals"}, 
+    {"name":"threadLocals"}
+  ]
+},
+{
+  "name":"java.lang.Throwable",
+  "queriedMethods":[{"name":"addSuppressed","parameterTypes":["java.lang.Throwable"] }]
+},
+{
+  "name":"java.lang.constant.Constable",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.constant.ConstantDesc",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.net.InetSocketAddress"
+},
+{
+  "name":"java.net.URI",
+  "queriedMethods":[{"name":"<init>","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.nio.charset.Charset"
+},
+{
+  "name":"java.nio.file.Path"
+},
+{
+  "name":"java.nio.file.Paths",
+  "queriedMethods":[{"name":"get","parameterTypes":["java.lang.String","java.lang.String[]"] }]
+},
+{
+  "name":"java.security.AlgorithmParametersSpi"
+},
+{
+  "name":"java.security.KeyStoreSpi"
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.security.interfaces.ECPrivateKey"
+},
+{
+  "name":"java.security.interfaces.ECPublicKey"
+},
+{
+  "name":"java.security.interfaces.RSAPrivateKey"
+},
+{
+  "name":"java.security.interfaces.RSAPublicKey"
+},
+{
+  "name":"java.sql.Connection"
+},
+{
+  "name":"java.sql.Driver"
+},
+{
+  "name":"java.sql.DriverManager",
+  "queriedMethods":[
+    {"name":"getConnection","parameterTypes":["java.lang.String"] }, 
+    {"name":"getDriver","parameterTypes":["java.lang.String"] }
+  ]
+},
+{
+  "name":"java.sql.Time",
+  "queriedMethods":[{"name":"<init>","parameterTypes":["long"] }]
+},
+{
+  "name":"java.sql.Timestamp",
+  "queriedMethods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.time.Duration",
+  "queriedMethods":[{"name":"parse","parameterTypes":["java.lang.CharSequence"] }]
+},
+{
+  "name":"java.time.Instant",
+  "queriedMethods":[{"name":"parse","parameterTypes":["java.lang.CharSequence"] }]
+},
+{
+  "name":"java.time.LocalDate",
+  "queriedMethods":[{"name":"parse","parameterTypes":["java.lang.CharSequence"] }]
+},
+{
+  "name":"java.time.LocalDateTime",
+  "queriedMethods":[{"name":"parse","parameterTypes":["java.lang.CharSequence"] }]
+},
+{
+  "name":"java.time.LocalTime",
+  "queriedMethods":[{"name":"parse","parameterTypes":["java.lang.CharSequence"] }]
+},
+{
+  "name":"java.time.MonthDay",
+  "queriedMethods":[{"name":"parse","parameterTypes":["java.lang.CharSequence"] }]
+},
+{
+  "name":"java.time.OffsetDateTime",
+  "queriedMethods":[{"name":"parse","parameterTypes":["java.lang.CharSequence"] }]
+},
+{
+  "name":"java.time.OffsetTime",
+  "queriedMethods":[{"name":"parse","parameterTypes":["java.lang.CharSequence"] }]
+},
+{
+  "name":"java.time.Period",
+  "queriedMethods":[{"name":"parse","parameterTypes":["java.lang.CharSequence"] }]
+},
+{
+  "name":"java.time.Year",
+  "queriedMethods":[{"name":"parse","parameterTypes":["java.lang.CharSequence"] }]
+},
+{
+  "name":"java.time.YearMonth",
+  "queriedMethods":[{"name":"parse","parameterTypes":["java.lang.CharSequence"] }]
+},
+{
+  "name":"java.time.ZoneId",
+  "queriedMethods":[{"name":"of","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.time.ZoneOffset",
+  "queriedMethods":[{"name":"of","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.time.ZonedDateTime",
+  "queriedMethods":[{"name":"parse","parameterTypes":["java.lang.CharSequence"] }]
+},
+{
+  "name":"java.util.Date"
+},
+{
+  "name":"java.util.Locale"
+},
+{
+  "name":"java.util.OptionalInt"
+},
+{
+  "name":"java.util.logging.Level"
+},
+{
+  "name":"javax.net.ssl.SSLParameters",
+  "methods":[{"name":"setApplicationProtocols","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"javax.net.ssl.SSLSocket",
+  "methods":[{"name":"getApplicationProtocol","parameterTypes":[] }]
+},
+{
+  "name":"javax.security.auth.x500.X500Principal",
+  "fields":[{"name":"thisX500Name"}],
+  "methods":[{"name":"<init>","parameterTypes":["sun.security.x509.X500Name"] }]
+},
+{
+  "name":"org.jboss.logmanager.ExtLogRecord",
+  "methods":[{"name":"setMarker","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "name":"org.jboss.logmanager.LogManager"
+},
+{
+  "name":"org.jboss.logmanager.Logger$AttachmentKey"
+},
+{
+  "name":"org.jboss.logmanager.handlers.AsyncHandler$OverflowAction"
+},
+{
+  "name":"org.jboss.logmanager.handlers.SyslogHandler$Facility"
+},
+{
+  "name":"org.jboss.logmanager.handlers.SyslogHandler$Protocol"
+},
+{
+  "name":"org.jboss.logmanager.handlers.SyslogHandler$SyslogType"
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutor",
+  "fields":[
+    {"name":"activeCount"}, 
+    {"name":"peakQueueSize"}, 
+    {"name":"peakThreadCount"}, 
+    {"name":"queueSize"}, 
+    {"name":"terminationWaiters"}
+  ]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutor$PoolThreadNode",
+  "fields":[
+    {"name":"parked"}, 
+    {"name":"task"}
+  ]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutor$QNode",
+  "fields":[{"name":"next"}]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutorBase1",
+  "fields":[{"name":"tail"}]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutorBase3",
+  "fields":[{"name":"head"}]
+},
+{
+  "name":"org.jboss.threads.EnhancedQueueExecutorBase5",
+  "fields":[{"name":"threadStatus"}]
+},
+{
+  "name":"org.jboss.threads.Messages_$logger",
+  "methods":[{"name":"<init>","parameterTypes":["org.jboss.logging.Logger"] }]
+},
+{
+  "name":"org.wildfly.common.lock.SpinLock",
+  "fields":[{"name":"owner"}]
+},
+{
+  "name":"picocli.AutoComplete$App"
+},
+{
+  "name":"picocli.AutoComplete$GenerateCompletion"
+},
+{
+  "name":"picocli.CommandLine"
+},
+{
+  "name":"picocli.CommandLine$AutoHelpMixin",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"picocli.CommandLine$HelpCommand"
+},
+{
+  "name":"picocli.CommandLine$IFactory"
+},
+{
+  "name":"picocli.CommandLine$IHelpCommandInitializable"
+},
+{
+  "name":"picocli.CommandLine$IHelpCommandInitializable2"
+},
+{
+  "name":"picocli.CommandLine$ParseResult"
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}]
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.pkcs12.PKCS12KeyStore$DualFormatPKCS12",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.DRBG",
+  "methods":[{"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
+  "name":"sun.security.provider.DSA$SHA224withDSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.DSA$SHA256withDSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.JavaKeyStore$JKS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA2$SHA224",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA2$SHA256",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA5$SHA384",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.SHA5$SHA512",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.X509Factory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.certpath.PKIXCertPathValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.PSSParameters",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSAKeyFactory$Legacy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSAPSSSignature",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSASignature$SHA224withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.rsa.RSASignature$SHA256withRSA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.SSLContextImpl$TLSContext",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.ssl.TrustManagerFactoryImpl$PKIXFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.util.ObjectIdentifier"
+},
+{
+  "name":"sun.security.x509.AuthorityInfoAccessExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.AuthorityKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.BasicConstraintsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CRLDistributionPointsExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.CertificateExtensions"
+},
+{
+  "name":"sun.security.x509.CertificatePoliciesExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.ExtendedKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.IssuerAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.KeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.NetscapeCertTypeExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.PrivateKeyUsageExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectAlternativeNameExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+},
+{
+  "name":"sun.security.x509.SubjectKeyIdentifierExtension",
+  "methods":[{"name":"<init>","parameterTypes":["java.lang.Boolean","java.lang.Object"] }]
+}
+]

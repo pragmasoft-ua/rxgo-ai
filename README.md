@@ -65,6 +65,21 @@ java -jar target/rxgo-ai-2023.5.1-SNAPSHOT-runner.jar
 
 ## Creating a native executable
 
+You can launch native-image-agent
+
+```shell
+./mvn quarkus:dev -Ddebug=false "-Djvm.args=-agentlib:native-image-agent=config-output-dir=src/main/resources/META-INF/native-image"
+```
+
+or
+
+```shell
+./mvn clean package -DskipTests
+java -agentlib:native-image-agent=config-merge-dir=src/main/resources/META-INF/native-image -jar target/quarkus-app/quarkus-run.jar
+```
+
+(notice the difference between config-output-dir and config-merge-dir)
+
 You can create a native executable using:
 
 ```shell script
@@ -101,7 +116,24 @@ As picocli applications will often require arguments to be passed on the command
 ./mvnw compile quarkus:dev -Dquarkus.args='Quarky'
 ```
 
+## Jlink
+
+```bash
+ ./mvnw clean package -DskipTests
+ jlink --no-header-files --no-man-pages --compress=2 --strip-debug --output target/jre --add-modules java.base,java.logging,java.naming,jdk.zipfs,jdk.unsupported,java.management,jdk.crypto.ec
+ # creates folder jre with the size of approx 26.2 Mb
+ target/jre/bin/java -jar target/quarkus-app/quarkus-run.jar
+```
+
+## JPackage
+
+```bash
+ jpackage @jpkg-opts
+ target/jpkg/rxgo-ai/rxgo-ai.exe
+```
+
 ## TODO
 
 native image build
-https://quarkus.io/extensions/org.apache.camel.quarkus/camel-quarkus-support-retrofit
+CRAC
+trunk based development, feature flags
