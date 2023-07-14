@@ -132,6 +132,8 @@ As picocli applications will often require arguments to be passed on the command
  target/jpkg/rxgo-ai/rxgo-ai.exe
 ```
 
+[Windows code signing instructions](https://simplefury.com/posts/java/windows/jpackage-win-codesign/)
+
 ## TODO
 
 native image build

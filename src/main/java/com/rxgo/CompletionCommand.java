@@ -13,6 +13,7 @@ import java.util.Set;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
+import org.eclipse.microprofile.rest.client.inject.RestClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,8 +23,8 @@ import com.theokanning.openai.completion.chat.ChatCompletionRequest;
 import com.theokanning.openai.completion.chat.ChatCompletionResult;
 import com.theokanning.openai.completion.chat.ChatMessage;
 import com.theokanning.openai.completion.chat.ChatMessageRole;
-import com.theokanning.openai.service.OpenAiService;
 
+import jakarta.inject.Inject;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Parameters;
 
@@ -61,14 +62,9 @@ public class CompletionCommand implements Runnable {
       ".*\\b(code|best|guarantee|healthcare|therapy)\\b.*",
       Pattern.CASE_INSENSITIVE);
 
-  final OpenAiService openAi;
-
-  /**
-   * @param openAi
-   */
-  public CompletionCommand(OpenAiService openAi) {
-    this.openAi = openAi;
-  }
+  @Inject
+  @RestClient
+  OpenAiChatClient openAi;
 
   @Parameters(paramLabel = "temperature", defaultValue = DEFAULT_TEMP, description = "temperature")
   Double temperature;
