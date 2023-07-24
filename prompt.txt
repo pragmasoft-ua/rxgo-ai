@@ -1,0 +1,13 @@
+user: Create SEO friendly title tags for "%drugname% coupon" to be used on RxGo.
+Exclude the words "code", "guarantee" "best", "healthcare" and "therapy".
+Provide variants.
+assistant: %drugname% Coupons from RxGo
+%drugname% Coupons | Save Money on Your Prescription - RxGo.com
+%drugname% Coupons | RxGo prescription discounts
+%drugname% Coupons | shop smart with RxGo's prescription discounts
+RxGo: Your Prescription Savings Hub for %drugname% Coupons
+RxGo: Your Destination for %drugname% Coupons
+%drugname% Coupons | RxGo - Your Prescription Savings Partner
+RxGo: %drugname% Coupons - Save with our discounts
+%drugname% Coupons Use RxGo for Cost-Effective Medication Discounts
+RxGo: Your Prescription Savings Destination for %drugname% Coupons

@@ -28,7 +28,7 @@ import jakarta.inject.Inject;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Parameters;
 
-@Command(name = "prompt", mixinStandardHelpOptions = true)
+@Command(name = "rxgo-ai", mixinStandardHelpOptions = true)
 public class CompletionCommand implements Runnable {
 
   static final Logger LOG = LoggerFactory.getLogger(CompletionCommand.class);

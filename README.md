@@ -33,7 +33,7 @@ You can change default prompt by passing it to the stdin
 
 ```shell script
 ./mvnw package
-echo "Hi" |  java -jar .\target\quarkus-app\quarkus-run.jar
+java -jar .\target\quarkus-app\quarkus-run.jar 1.0 <prompt.txt
 ```
 
 > **_NOTE:_** Quarkus now ships with a Dev UI, which is available in dev mode only at http://localhost:8080/q/dev/.
@@ -132,10 +132,13 @@ As picocli applications will often require arguments to be passed on the command
  target/jpkg/rxgo-ai/rxgo-ai.exe
 ```
 
+Surprisingly, jpackage based image size is a bit smaller than the GraalVM generated exacutable
+(44Mb vs 46Mb)
+
 [Windows code signing instructions](https://simplefury.com/posts/java/windows/jpackage-win-codesign/)
 
 ## TODO
 
-native image build
++native image build
 CRAC
 trunk based development, feature flags
