@@ -139,6 +139,8 @@ Surprisingly, jpackage based image size is a bit smaller than the GraalVM genera
 
 ## TODO
 
-+native image build
-CRAC
-trunk based development, feature flags
+- ✅ jpackage build
+- ✅ Native image build
+- ✅ Quarkus rest client
+- CRAC
+- trunk based development, feature flags
